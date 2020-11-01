@@ -83,19 +83,3 @@ $(document).ready(function () {
     })
 }
 )
-
-
-
-
-// var myKeyVals = { 'author_name': 'authors_name', 'liker_name': 'liker', 'time_liked': Date.now(), 'post_liked': 'id_of_post' }
-
-
-
-//             var saveData = $.ajax({
-//                 type: 'POST',
-//                 url: "http://127.0.0.1:8000/home/like/",
-//                 data: myKeyVals,
-//                 dataType: "text",
-//                 success: function (resultData) { console.log("Post liked"); }
-//             });
-//             saveData.error(function () { alert("Something went wrong"); });
