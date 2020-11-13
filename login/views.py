@@ -7,6 +7,7 @@ def login(request):
     return render(request,'login/base.html')
 
 def login_user(request):
+    # Only for post requests as this is routing page.
     if request.method=='GET':
         return HttpResponse("<h1>ERROR 404 PAGE NOT FOUND</h1>")
     else:
